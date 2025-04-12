@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --color-blue-ribbon-50: #eff4ff;
+    --color-blue-ribbon-100: #dbe6fe;
+    --color-blue-ribbon-200: #bfd3fe;
+    --color-blue-ribbon-300: #93b4fd;
+    --color-blue-ribbon-400: #6090fa;
+    --color-blue-ribbon-500: #3b76f6;
+    --color-blue-ribbon-600: #2563eb;
+    --color-blue-ribbon-700: #1d58d8;
+    --color-blue-ribbon-800: #1e4baf;
+    --color-blue-ribbon-900: #1e408a;
+    --color-blue-ribbon-950: #172a54;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
